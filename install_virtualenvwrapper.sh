@@ -9,6 +9,8 @@ sudo pip install virtualenv
 mkdir ~/.virtualenvs
 sudo pip install virtualenvwrapper
 . /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
 source ~/.bashrc
 
 echo "Done"
